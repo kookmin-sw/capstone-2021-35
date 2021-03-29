@@ -1,38 +1,29 @@
-## 쏘카 - 차량 정비 메모 
 
-You can use the [editor on GitHub](https://github.com/kookmin-sw/cap-template/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# 쏘카 - 차량정비메모 (TEAM 35)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 프로젝트 소개
 
-### 1. 프로젝트 소개
+- 개요
+  - 정비 메모 자연어 처리 및 범주화
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- 동기
+  - 차량관리 한게로 인해 지속적인 고객 클레임 발생
+  - 고객 클레임 이후 차량 점검/정비 하였으나 동일한 클레임이 발생하는 경우도 있음
+  - 신규 투입차량임에도 불구하고 난폭운전등으로 차량 정비가 필요한 경우도 발생
+  - 그러나, 고객 클레임 내용과 정비조치 내용 작성이 각 담당자마다 제 각각 작성되어 어떤 문제로, 어떻게 조치되었는지 통계적으로 산출하는데에 한계가 있음
 
-```markdown
-Syntax highlighted code block
 
-# 개요
-## 동기
-## 목표
+- 목표
+  - 정비메모 자연어 처리 및 정비 내용 범주화
+  - 정상차량의 사용자의 난폭운전으로 인한 정비 입고 의심건 색출
+  - 과정비 업체 선별
 
-- Bulleted
-- List
+## 팀 소개
 
-1. Numbered
-2. List
+- 이하영(20185290)
 
-**Bold** and _Italic_ and `Code` text
+- 조혜영(20175168)
 
-[Link](url) and ![Image](src)
-```
-### 2. 프로젝트 소개 영상
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### 3. 팀 소개
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kookmin-sw/cap-template/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### 4. 사용법
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**팀페이지 주소** -> https://kookmin-sw.github.io/capstone-2021-35
