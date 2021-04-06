@@ -3,8 +3,8 @@
 # 📝 쏘카 - 차량 정비 메모 (TEAM 35)
 
 ## 1) 프로젝트 소개
-#### 산학 지정 과제 - 협력 업체 :  Socar
-<center><img src="https://user-images.githubusercontent.com/47061005/113650646-8511dd00-96cb-11eb-9883-3e0f5057641a.png" width="30%" height="30%"></center>
+#### 산학 지정 과제 - 협력 업체
+<center><img src="https://user-images.githubusercontent.com/47061005/113650646-8511dd00-96cb-11eb-9883-3e0f5057641a.png" width="20%" height="20%"></center>
 
 ### - 개요
   - 정비 메모 자연어 처리 및 범주화  
@@ -48,7 +48,7 @@ Email : hyeyoung3863@kookmin.ac.kr
 ```
 이하영 
 학번 : 20185290    
-Email : hyeyoung3863@kookmin.ac.kr
+Email : gkdud0528@kookmin.ac.kr
 역할 : 카테고리 범주화 및 Re-categorization 모델 생성 
 ```
 
