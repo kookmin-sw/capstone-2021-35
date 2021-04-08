@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/kookmin-sw/cap-template/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+ 
+# 📝 쏘카 - 차량 정비 메모 (TEAM 35)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 1) 프로젝트 소개
+### - 산학 지정 협력 업체
+<center><img src="https://user-images.githubusercontent.com/47061005/113650646-8511dd00-96cb-11eb-9883-3e0f5057641a.png" width="20%" height="20%"></center>
 
-### Markdown
+### - 개요
+  - 정비 메모 자연어 처리 및 범주화  
+ 
+### - 동기   
+  - 카 셰어링 업계의 차량 정비에는 다음과 같은 어려움이 있습니다.
+1) 고객의 이용 시간을 고려하여 차량 점검을 진행하므로 시간적인 한계 발생.
+2) 이전의 클레임으로 인해 차량을 점검했더라도 동일한 클레임이 발생.
+3) 신규 투입 차량임에도 불구하고 난폭운전 등으로 예기치 못한 점검 상황이 필요.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ - 이러한 요인들에 대처하기 위해선 보다 신속하고 지속적인 관리가 요구되므로 카 셰어링 업계에서는 기존의 정비 내용을 바탕으로 차량을 점검해왔습니다. 하지만 지금까지의 차량 정비 과정은 TEXT 기반의 업무 처리 환경에서 진행되었기 때문에 사고 당시의 문맥적 요소가 제한되고 TEXT로만 전달되므로 정비 과정에 있어 모호함과 장애요인에 대한 오해 가능성이 존재했습니다.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### - 목표   
+<p align="center"><img src="https://user-images.githubusercontent.com/47061005/113655810-792b1880-96d5-11eb-9a13-cc84c091c1e4.png" width="55%" height="55%"></p>
 
-1. Numbered
-2. List
+ - 저희는 기존의 정비 메모를 자연어 처리하여 정비 내용을 보다 일반화하여 범주화된 틀을 마련하고자 합니다.
+어떤 문제가 어떻게 조치되었는지 정비 내용을 범주화하고 이를 통계적으로 산출할 수 있도록 하여 차량 점검의 정확도를 높일 것입니다.   
+정규화와 일반화를 위해 요구되는 주요 로직은 다음과 같습니다.
+ 1) 수리내역 카테고리의 재정의   
+  : 기존 수리 내역에는 여러 가지 요인을 가져 특정 장애요인을 대표하지 못하는 불명확한 카테고리가 있었습니다.
+저희는 이를 제거하고 1level의 장애 요인을 가진 수리 내역을 토대로 키워드를 추출하여 기존의 모호한 수리내역을 분석하고 새로운 카테고리를 정의하고자 합니다.
+ 2) 정비 로직의 일반화    
+  : 장애요인과 관련하여 실무에서 존재하는 다양한 표현들을 묶어 관련도 높은 장애 요인을 판단하도록 합니다. 이를 통해 일반 상담원이 상담 내용을 토대로 장애 요인을 분석할 수 있도록 합니다.
+  더불어 해당 장애요인의 처리 과정을 일련화화해 숙련도가 상승되기 전의 신입사원이 처리과정에서의 직관적인 이해를 도울 수 있도록 합니다.
 
-**Bold** and _Italic_ and `Code` text
+## 2) 프로젝트 소개 동영상
+[![Video Label](http://img.youtube.com/vi/LCdcM9juzx8/sddefault.jpg)](https://youtu.be/LCdcM9juzx8")
 
-[Link](url) and ![Image](src)
+## 3) 팀 소개
+ 
+**팀장**   
+```
+조혜영 
+학번 : 20175168
+Email : hyeyoung3863@kookmin.ac.kr
+역할 : 장애 요인 진단 및 Transaction 분석 모델 생성
+```
+**팀원**    
+```
+이하영 
+학번 : 20185290    
+Email : gkdud0528@kookmin.ac.kr
+역할 : 카테고리 범주화 및 Re-categorization 모델 생성 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kookmin-sw/cap-template/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**팀페이지 주소** -> <https://kookmin-sw.github.io/capstone-2021-35>
