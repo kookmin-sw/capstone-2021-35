@@ -33,7 +33,6 @@
   더불어 해당 장애요인의 처리 과정을 일련화화해 숙련도가 상승되기 전의 신입사원이 처리과정에서의 직관적인 이해를 도울 수 있도록 합니다.
 
 ## 2) 프로젝트 소개 동영상
-[![Video Label](http://img.youtube.com/vi/LCdcM9juzx8/sddefault.jpg)](https://youtu.be/LCdcM9juzx8")
 
 
 ## 3) 팀 소개
