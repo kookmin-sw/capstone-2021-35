@@ -2,14 +2,14 @@
 
 # 📝 쏘카 - 차량 정비 메모 (TEAM 35)
 
-## 프로젝트 소개
-#### 산학 지정 과제 - 협력 업체 :  Socar
-<center><img src="https://user-images.githubusercontent.com/47061005/113650646-8511dd00-96cb-11eb-9883-3e0f5057641a.png" width="30%" height="30%"></center>
+## 1) 프로젝트 소개
+### - 산학 지정 협력 업체
+<center><img src="https://user-images.githubusercontent.com/47061005/113650646-8511dd00-96cb-11eb-9883-3e0f5057641a.png" width="20%" height="20%"></center>
 
-### 개요
+### - 개요
   - 정비 메모 자연어 처리 및 범주화  
  
-### 동기   
+### - 동기   
   - 카 셰어링 업계의 차량 정비에는 다음과 같은 어려움이 있습니다.
 1) 고객의 이용 시간을 고려하여 차량 점검을 진행하므로 시간적인 한계 발생.
 2) 이전의 클레임으로 인해 차량을 점검했더라도 동일한 클레임이 발생.
@@ -19,9 +19,8 @@
 
 
 
-### 목표   
-<center><img src="https://user-images.githubusercontent.com/47061005/113654986-ffdef600-96d3-11eb-83ad-b7581a392186.png" width="60%" height="60%"></center>
-
+### - 목표   
+<p align="center"><img src="https://user-images.githubusercontent.com/47061005/113655810-792b1880-96d5-11eb-9a13-cc84c091c1e4.png" width="55%" height="55%"></p>
 
  - 저희는 기존의 정비 메모를 자연어 처리하여 정비 내용을 보다 일반화하여 범주화된 틀을 마련하고자 합니다.
 어떤 문제가 어떻게 조치되었는지 정비 내용을 범주화하고 이를 통계적으로 산출할 수 있도록 하여 차량 점검의 정확도를 높일 것입니다.   
@@ -29,13 +28,14 @@
  1) 수리내역 카테고리의 재정의   
   : 기존 수리 내역에는 여러 가지 요인을 가져 특정 장애요인을 대표하지 못하는 불명확한 카테고리가 있었습니다.
 저희는 이를 제거하고 1level의 장애 요인을 가진 수리 내역을 토대로 키워드를 추출하여 기존의 모호한 수리내역을 분석하고 새로운 카테고리를 정의하고자 합니다.
- 2) 정비 로직의 일반화     
+ 2) 정비 로직의 일반화    
   : 장애요인과 관련하여 실무에서 존재하는 다양한 표현들을 묶어 관련도 높은 장애 요인을 판단하도록 합니다. 이를 통해 일반 상담원이 상담 내용을 토대로 장애 요인을 분석할 수 있도록 합니다.
   더불어 해당 장애요인의 처리 과정을 일련화화해 숙련도가 상승되기 전의 신입사원이 처리과정에서의 직관적인 이해를 도울 수 있도록 합니다.
 
+## 2) 프로젝트 소개 동영상
+[![Video Label](http://img.youtube.com/vi/LCdcM9juzx8/sddefault.jpg)](https://youtu.be/LCdcM9juzx8")
 
-
-## 팀 소개
+## 3) 팀 소개
 
 **팀장**   
 ```
@@ -48,7 +48,7 @@ Email : hyeyoung3863@kookmin.ac.kr
 ```
 이하영 
 학번 : 20185290    
-Email : hyeyoung3863@kookmin.ac.kr
+Email : gkdud0528@kookmin.ac.kr
 역할 : 카테고리 범주화 및 Re-categorization 모델 생성 
 ```
 
