@@ -36,7 +36,7 @@
 [![Video Label](http://img.youtube.com/vi/LCdcM9juzx8/sddefault.jpg)](https://youtu.be/LCdcM9juzx8")
 
 ## 3) 팀 소개
-
+ 
 **팀장**   
 ```
 조혜영 
